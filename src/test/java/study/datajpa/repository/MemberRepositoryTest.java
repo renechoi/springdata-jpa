@@ -13,9 +13,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @Transactional
-public class MemberJpaRepositoryTest {
+public class MemberRepositoryTest {
     @Autowired
-    MemberJpaRepository memberRepository;
+    MemberRepository memberRepository;
 
     @Test
     public void testMember() {
